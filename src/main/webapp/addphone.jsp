@@ -29,11 +29,15 @@
             <span></span>
             <label>Phone's Name</label>
         </div>
-        <div class="txt_field">
-            <input type="text" name="brand" value="<%= phone.getBrand() %>" required>
-            <span></span>
-            <label>Brand's Name</label>
-        </div>
+        <br><br>
+        <label for="brands">Choose a brand</label>
+        <select name="brand" id="brands">
+            <option value="Samsung">Samsung</option>
+            <option value="Apple">Apple</option>
+            <option value="Nokia">Nokia</option>
+            <option value="Others">Others</option>
+        </select>
+        <br><br>
         <div class="txt_field">
             <input type="text" name="description" value="<%= phone.getDescription() %>" required>
             <span></span>
